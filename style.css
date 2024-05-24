@@ -1,0 +1,58 @@
+ body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: gray;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #container {
+    width: 500px;
+    height: 500px;
+    margin: 75px auto;
+    padding: 80px;
+    background-color: black;
+    box-shadow: 0 0 0px rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+  }
+  
+  h1 {
+    text-align: center;
+    color: white;
+  }
+  
+  /* Button */
+  #getUser {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: blueviolet;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #getUser:hover {
+    background-color: wheat;
+  }
+  
+  /* User Info */
+  #userInfo {
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  #userInfo img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  
+  #userInfo p {
+    margin: 10px 0;
+    font-size: 18px;
+    color: white;
+  }
